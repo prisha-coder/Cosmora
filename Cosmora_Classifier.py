@@ -32,7 +32,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # -------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\\Users\\japat\\Downloads\\nasa space apps challenge\\koi_data.csv")
+    df = pd.read_csv("koi_data.csv")
     needed_columns = [
         "koi_period", "koi_prad", "koi_srad", "koi_steff", "koi_slogg",
         "koi_time0bk", "koi_impact", "koi_duration", "koi_teq", "koi_disposition"
